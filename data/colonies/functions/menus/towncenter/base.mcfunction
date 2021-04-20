@@ -1,0 +1,2 @@
+# Trigger code 3
+execute as @a[scores={menuTrigger=3}] run tellraw @s [{"text":"\n\n\n-----Town center-----\n","color":"dark_aqua","bold":true},{"text":"[INFO] ","color":"red","bold":false,"clickEvent":{"action":"run_command","value":"/trigger menuTrigger set 1"}},{"text":"[CITIZENS]","color":"dark_green","bold":false,"clickEvent":{"action":"run_command","value":"/trigger menuTrigger set 2"}}]
